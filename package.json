@@ -10,8 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/saurabh0719/covid-cli.git"
   },
+  "keywords": [
+    "covid",
+    "covid-19",
+    "covid19",
+    "corona",
+    "coronavirus",
+    "covid cli tool",
+    "cli tool",
+    "cli covid tracker"
+  ],
   "author": "saurabh0719",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "covidy": "./bin/index.js"
   },
