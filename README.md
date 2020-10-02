@@ -1,4 +1,4 @@
-# covidy
+# covidy###@1.0.1
 
 Get live covid19 data of any country into your terminal window 
 
