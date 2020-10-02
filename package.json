@@ -1,0 +1,22 @@
+{
+  "name": "covid-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh0719/covid-cli.git"
+  },
+  "author": "saurabh0719",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh0719/covid-cli/issues"
+  },
+  "homepage": "https://github.com/saurabh0719/covid-cli#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
