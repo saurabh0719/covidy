@@ -1,6 +1,6 @@
 {
   "name": "covidy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get Covid-19 stats of any country right into your terminal!",
   "main": "bin/index.js",
   "scripts": {
