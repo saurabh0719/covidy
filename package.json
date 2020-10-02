@@ -1,8 +1,8 @@
 {
-  "name": "covid-cli",
+  "name": "covidy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Get Covid-19 stats of any country right into your terminal!",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,16 @@
   },
   "author": "saurabh0719",
   "license": "ISC",
+  "bin": {
+    "covidy": "./bin/index.js"
+  },
   "bugs": {
     "url": "https://github.com/saurabh0719/covid-cli/issues"
   },
   "homepage": "https://github.com/saurabh0719/covid-cli#readme",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "yargs": "^16.0.3"
   }
 }
