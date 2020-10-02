@@ -22,7 +22,7 @@ class AxiosRequests{
             console.log(chalk.blue("Total number of recoveries in ") + chalk.blue(response.data.country+ " : ") + chalk.red(response.data.recovered))
             console.log(chalk.blue("Active cases in ") + chalk.blue(response.data.country+ " : ") + chalk.cyan(response.data.active))
             console.log("")
-            console.log(chalk.gray("Data fetched from Novelcovid API @ Postman"))
+            console.log(chalk.gray("Data fetched from Novelcovid API @ Postman. ") + chalk.red('covidy ') + chalk.white.bold('\u20AA ') + chalk.cyan.underline('saurabh0719'))
             
 
         }).catch(function(error){
