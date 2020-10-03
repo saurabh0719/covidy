@@ -22,11 +22,35 @@ class AxiosRequests{
             console.log(chalk.blue("Total number of recoveries in ") + chalk.blue(response.data.country+ " : ") + chalk.red(response.data.recovered))
             console.log(chalk.blue("Active cases in ") + chalk.blue(response.data.country+ " : ") + chalk.cyan(response.data.active))
             console.log("")
-            console.log(chalk.gray("Data fetched from Novelcovid API @ Postman. ") + chalk.red('covidy ') + chalk.white.bold('\u20AA ') + chalk.cyan.underline('saurabh0719'))
+            console.log(chalk.gray("Data fetched from Novelcovid API @ Postman. ") + chalk.red('covidy ') + chalk.white.bold('\u20AA ') + chalk.cyan('saurabh0719'))
             
 
         }).catch(function(error){
             console.log("Country not found : Invalid input");
+        })
+    }
+
+    getDataByContinent(continent){
+
+        let endpoint = "https://corona.lmao.ninja/v2/continents/" + continent + "?yesterday&strict"
+        axios.get(endpoint).then(function(response){
+
+            console.log(chalk.blue("\nContinent : ") + chalk.white.bold(response.data.continent))
+            //console.log("-----------------------------------------------------")
+            //console.log(chalk.blue("Number of new cases today : ") + chalk.yellow(response.data.todayCases))
+            //console.log(chalk.blue("Number of deaths today : ") + chalk.yellow(response.data.todayDeaths))
+            //console.log(chalk.blue("Number of recoveries today : ") + chalk.yellow(response.data.todayRecovered))
+            console.log("-----------------------------------------------------")
+            console.log(chalk.blue("Total number of cases in ") + chalk.blue(response.data.continent + " : ") + chalk.red(response.data.cases))
+            console.log(chalk.blue("Total number of deaths in ") + chalk.blue(response.data.continent + " : ") + chalk.red(response.data.deaths))
+            console.log(chalk.blue("Total number of recoveries in ") + chalk.blue(response.data.continent + " : ") + chalk.red(response.data.recovered))
+            console.log(chalk.blue("Active cases in ") + chalk.blue(response.data.continent + " : ") + chalk.cyan(response.data.active))
+            console.log("")
+            console.log(chalk.gray("Data fetched from Novelcovid API @ Postman. ") + chalk.red('covidy ') + chalk.white.bold('\u20AA ') + chalk.cyan('saurabh0719'))
+            
+
+        }).catch(function(error){
+            console.log("Error : No response from API");
         })
     }
 

@@ -30,3 +30,40 @@
     "recoveredPerOneMillion": 3866.26,
     "criticalPerOneMillion": 6.47
 }
+
+{
+    "updated": 1601708799063,
+    "cases": 8206807,
+    "todayCases": 503,
+    "deaths": 259281,
+    "todayDeaths": 44,
+    "recovered": 7056247,
+    "todayRecovered": 489,
+    "active": 891279,
+    "critical": 17388,
+    "casesPerOneMillion": 19012.04,
+    "deathsPerOneMillion": 600.66,
+    "tests": 34399343,
+    "testsPerOneMillion": 79690.16,
+    "population": 431663634,
+    "continent": "South America",
+    "activePerOneMillion": 2064.75,
+    "recoveredPerOneMillion": 16346.63,
+    "criticalPerOneMillion": 40.28,
+    "countries": [
+        "Argentina",
+        "Bolivia",
+        "Brazil",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Falkland Islands (Malvinas)",
+        "French Guiana",
+        "Guyana",
+        "Paraguay",
+        "Peru",
+        "Suriname",
+        "Uruguay",
+        "Venezuela"
+    ]
+}
