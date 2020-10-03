@@ -1,9 +1,9 @@
 # covidy @1.0.2
 
-Get live covid19 data of any country into your terminal window 
+Get live covid19 data of any country or continent into your terminal window 
 
 <p align="center">
-<img src="demo2.PNG"/>
+<img src="india.PNG"/>
   </p>
 
 ### Installation steps
@@ -11,10 +11,27 @@ Using npm
 ```sh
 $ npm install covidy -g
 ```
-Use the 'get' command followed by the name of a country
+Update 
 ```sh
-$ covidy get canada
+$ npm update covidy -g
+```
+
+### Usage guide
+Get a country's covid stats (get)
+```sh
+$ covidy get <country_name>
 ```
 <p align="center">
-<img src="demo1.PNG"/>
+<img src="canada.PNG"/>
+  </p>
+
+Get a continent's covid stats (getc)
+```sh
+$ covidy getc
+```
+<p align="center">
+<img src="options.PNG"/>
+  </p>
+<p align="center">
+<img src="southamerica.PNG"/>
   </p>
